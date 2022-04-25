@@ -33,6 +33,24 @@
      box-sizing: border-box !important;
 }
 
+.sticky-contact {
+     display: block;
+     z-index: 1;
+     position: fixed;
+     bottom: 1.5rem;
+     right: 2rem;
+     padding: 0.75rem;
+     color: #e2e2e2;
+     border-radius: 15px;
+     background-color: #7644e2;
+     box-shadow: 0px 2px 20px 2px #7b34be;
+   }
+   
+   .sticky-contact:hover {
+     background-color: #0479ff;
+     box-shadow: 0px 2px 20px 2px #1e63ca;
+   }
+
 html {
      scroll-behavior: smooth;
 }
