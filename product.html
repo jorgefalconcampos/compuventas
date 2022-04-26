@@ -164,12 +164,41 @@
          </div>
       </div>
       <!-- end products -->
-      <!--  footer -->
       <div>
-         <a class="sticky-contact" href="/contacto.html">
-           <i class="fa fa-comment fa-2x"></i>
+         <!-- launch modal -->
+         <a id="openbot" data-toggle="modal" data-target="#exampleModal" class="sticky-contact" href="/contacto.html">
+            <i class="fa fa-comment fa-2x"></i>
          </a>
       </div>
+
+      <div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+         <div class="modal-dialog" role="document">
+           <div class="modal-content">
+             <div class="modal-header">
+               <h5 class="modal-title" id="exampleModalLabel">Bot de CompuVentas</h5>
+               <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                 <span aria-hidden="true">&times;</span>
+               </button>
+             </div>
+             <div class="modal-body">
+                <div>
+                  <script src="https://unpkg.com/typebot-js@2.2.1"></script>
+                  <div id="typebot-container" style="width: 100%; height: 420px;"></div>
+                  <script>
+                    Typebot.initContainer("typebot-container", {
+                      url: "https://viewer.typebot.io/customer-support-copy-2mhzc2g",
+                    });
+                  </script>
+                </div>
+             </div>
+             <div class="modal-footer">
+               <button type="button" class="btn btn-primary" data-dismiss="modal">Cerrar</button>
+             </div>
+           </div>
+         </div>
+       </div>
+      
+      <!--  footer -->
       <footer>
          <div class="footer">
             <div class="container">
@@ -224,6 +253,56 @@
       <!-- sidebar -->
       <script src="js/jquery.mCustomScrollbar.concat.min.js"></script>
       <script src="js/custom.js"></script>
+      <!-- <script>
+
+$(document).ready(function(){
+   $('#exampleModal').on('shown.bs.modal', function (e) {
+      
+      setTimeout(function() {
+
+         // https://viewer.typebot.io/aplic-de-redes-wfm9s88
+         
+         const container = document.getElementById("typebot-container").getElementsByTagName("iframe");
+         const iframeTypebotID = container[0].id;
+
+         const iframeElement = document.getElementById(iframeTypebotID);
+
+         const element = iframeElement.contentWindow.document.getElementsByTagName("body")[0];
+
+         console.log(element);
+
+
+
+         // const dataID = container.getAttribute("data-id");
+         // alert(dataID)
+
+         
+
+
+
+         // const iframeID = "https://viewer.typebot.io/aplic-de-redes-wfm9s88-dkj2bj"
+         // const iframe = document.getElementById(iframeID);
+
+         // const innerDoc =iframe.contentDocument || iframe.contentWindow.document;
+
+         // const innerDocBody = innerDoc.body
+
+         // const liteB = innerDocBody.getElementById("lite-badge");
+         
+         // alert(liteB.innerHTML)
+
+
+         if ($('#lite-badge').length > 0) {
+            alert("si existe")
+  // Exists.
+}
+         $("#lite-badge").css("display", "none");
+      }, 2000);
+   });
+
+
+});
+      </script> -->
    </body>
 </html>
 

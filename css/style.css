@@ -33,6 +33,10 @@
      box-sizing: border-box !important;
 }
 
+#lite-badge {
+     border: red 2px solid !important;
+}
+
 .sticky-contact {
      display: block;
      z-index: 1;
