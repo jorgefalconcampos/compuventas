@@ -1,7 +1,5 @@
 /*-----------------------------------------------------------------------------
-
 - Revolution Slider 5.0 Navigatin Skin Style  -
-
 -----------------------------------------------------------------------------*/
 .ares.tparrows {
   cursor:pointer;
@@ -80,19 +78,16 @@ border-radius:30px 0px 0px 30px;
   margin-left:10px;
   opacity:0;
 }
-
 .ares.tp-rightarrow .tp-arr-titleholder {
    transform:translateX(-200px); 
    margin-left:0px; margin-right:10px;
       }
-
 .ares.tparrows:hover .tp-arr-titleholder {
    transform:translateX(0px);
    -webkit-transform:translateX(0px);
   transition-delay: 0.1s;
   opacity:1;
 }
-
 /* BULLETS */
 .ares.tp-bullets {
 }
@@ -137,7 +132,6 @@ border-radius:30px 0px 0px 30px;
   line-height:20px;
   white-space:nowrap;
 }     
-
 .ares .tp-bullet-title:after {
     width: 0px;
 	height: 0px;
@@ -149,13 +143,11 @@ border-radius:30px 0px 0px 30px;
     right:-10px;
 	top:0px;
 }
-    
 .ares .tp-bullet:hover .tp-bullet-title{
   visibility:visible;
    transform:translateX(0px);
   -webkit-transform:translateX(0px);
 }
-
 .ares .tp-bullet.selected:hover .tp-bullet-title {
     background:#fff;
         }
@@ -168,7 +160,6 @@ border-radius:30px 0px 0px 30px;
 .ares.tp-bullets:hover .tp-bullet:hover .tp-bullet-title {
     visibility:visible;
       }
-
 /* TABS */
 .ares .tp-tab { 
   opacity:1;      
@@ -184,7 +175,6 @@ border-radius:30px 0px 0px 30px;
   position:relative;
   display:inline-block;
   float:left;
-
 }
 .ares .tp-tab-content 
 {
@@ -222,24 +212,16 @@ border-radius:30px 0px 0px 30px;
 .ares .tp-tab.selected {
 	background:#eee; 
 }
-
 .ares .tp-tab-mask {
 }
-
 /* MEDIA QUERIES */
 @media only screen and (max-width: 960px) {
-
 }
 @media only screen and (max-width: 768px) {
-
 }
-
 /*-----------------------------------------------------------------------------
-
 - Revolution Slider 5.0 Navigatin Skin Style  -
-
  CUSTOM SKIN
-
 author:  ThemePunch
 email:      info@themepunch.com
 website:    http://www.themepunch.com
@@ -272,9 +254,6 @@ website:    http://www.themepunch.com
 .custom.tparrows.tp-rightarrow:before {
 	content: "\e825";
 }
-
-
-
 /* BULLETS */
 .custom.tp-bullets {
 }
@@ -305,20 +284,11 @@ website:    http://www.themepunch.com
 }
 .custom .tp-bullet-title {
 }
-
-
 /* THUMBS */
-
-
 /* TABS */
-
-
 /*-----------------------------------------------------------------------------
-
 - Revolution Slider 5.0 Navigatin Skin Style  -
-
  DIONE SKIN
-
 author:  ThemePunch
 email:      info@themepunch.com
 website:    http://www.themepunch.com
@@ -333,7 +303,6 @@ website:    http://www.themepunch.com
   transition:all 0.3s;
 -webkit-transition:all 0.3s;
 }
-
 .dione.tparrows:hover {
  background:rgba(0,0,0,0.45);
  }
@@ -349,7 +318,6 @@ website:    http://www.themepunch.com
 left:auto;
 right:0px;
 }
-
 .dione .tp-arr-imgholder {
 background-position:center center;
 background-size:cover;
@@ -364,14 +332,12 @@ transition:all 0.3s;
 opacity:0;
 left:0px;
 }
-
 .dione.tparrows.tp-rightarrow .tp-arr-imgholder {
   right:0px;
   left:auto;
   transform:translateX(50px);
  -webkit-transform:translateX(50px);
 }
-
 .dione.tparrows:before {
 position:absolute;
 line-height:30px;
@@ -383,31 +349,24 @@ margin-top:-15px;
 transition:all 0.3s;
 -webkit-transition:all 0.3s;
 }
-
 .dione.tparrows.tp-rightarrow:before {
 margin-left:6px;
 }
-
 .dione.tparrows:hover:before {
   transform:translateX(-20px);
 -webkit-transform:translateX(-20px);
 opacity:0;
 }
-
 .dione.tparrows.tp-rightarrow:hover:before {
   transform:translateX(20px);
 -webkit-transform:translateX(20px);
 }
-
 .dione.tparrows:hover .tp-arr-imgholder {
  transform:translateX(0px);
 -webkit-transform:translateX(0px);
 opacity:1;
 visibility:visible;
 }
-
-
-
 /* BULLETS */
 .dione .tp-bullet { 
     opacity:1;
@@ -420,9 +379,7 @@ visibility:visible;
     box-sizing:border-box;
     transition:all 0.3s;
     -webkit-transition:all 0.3s;
-
   }
-
 .dione .tp-bullet-image {
    display:block;
    box-sizing:border-box;
@@ -456,16 +413,13 @@ visibility:visible;
     opacity:0;
     white-space:nowrap;
  }
-
 .dione .tp-bullet:hover .tp-bullet-title {
      transform:rotateX(0deg) translateX(-50%);
     -webkit-transform:rotateX(0deg) translateX(-50%);
     opacity:1;
 }
-
 .dione .tp-bullet.selected,
 .dione .tp-bullet:hover  {
-  
    background: rgba(255,255,255,1);
   background: -moz-linear-gradient(top, rgba(255,255,255,1) 0%, rgba(119,119,119,1) 100%);
   background: -webkit-gradient(left top, leftCompuVentastom, color-stop(0%, rgba(255,255,255,1)), color-stop(100%, rgba(119,119,119,1)));
@@ -474,7 +428,6 @@ visibility:visible;
   background: -ms-linear-gradient(top, rgba(255,255,255,1) 0%, rgba(119,119,119,1) 100%);
   background: linear-gradient(toCompuVentastom, rgba(255,255,255,1) 0%, rgba(119,119,119,1) 100%);
   filter: progid:DXImageTransform.Microsoft.gradient( startColorstr="#ffffff", endColorstr="#777777", GradientType=0 );
- 
       }
 .dione .tp-bullet-title:after {
         content:" ";
@@ -488,14 +441,9 @@ visibility:visible;
     border-color: rgba(0,0,0,0.75) transparent transparent transparent;
        CompuVentastom:-8px;
    }
-
-
 /*-----------------------------------------------------------------------------
-
 - Revolution Slider 5.0 Navigatin Skin Style  -
-
  ERINYEN SKIN
-
 author:  ThemePunch
 email:      info@themepunch.com
 website:    http://www.themepunch.com
@@ -512,7 +460,6 @@ website:    http://www.themepunch.com
   z-index:1000;
   border-radius:35px;   
 }
-
 .erinyen.tparrows:before {
   font-family: "revicons";
   font-size:20px;
@@ -529,7 +476,6 @@ website:    http://www.themepunch.com
 .erinyen.tparrows.tp-rightarrow:before {
   content: "\e825";
 }
-
 .erinyen .tp-title-wrap { 
   position:absolute;
   z-index:1;
@@ -551,7 +497,6 @@ website:    http://www.themepunch.com
   visibility:hidden;
   opacity:0;
 }
-
 .erinyen.tparrows:hover .tp-title-wrap{
   -webkit-transform: scale(1);
   -moz-transform: scale(1);
@@ -559,7 +504,6 @@ website:    http://www.themepunch.com
   opacity:1;
   visibility:visible;
 }
-        
  .erinyen.tp-rightarrow .tp-title-wrap { 
    right:0px;
    margin-right:0px;margin-left:0px;
@@ -568,13 +512,10 @@ website:    http://www.themepunch.com
   padding-right:20px;
   padding-left:10px;
  }
-
-
 .erinyen.tp-leftarrow .tp-title-wrap { 
    padding-left:20px;
   padding-right:10px;
 }
-
 .erinyen .tp-arr-titleholder {
   letter-spacing: 3px;
    position:relative;
@@ -591,7 +532,6 @@ website:    http://www.themepunch.com
   margin-left:11px;
   opacity:0;  
 }
-
 .erinyen .tp-arr-imgholder {
   width:100%;
   height:100%;
@@ -614,14 +554,12 @@ website:    http://www.themepunch.com
    transform:translateX(-200px); 
    margin-left:0px; margin-right:11px;
       }
-
 .erinyen.tparrows:hover .tp-arr-titleholder {
    transform:translateX(0px);
    -webkit-transform:translateX(0px);
   transition-delay: 0.1s;
   opacity:1;
 }
-
 /* BULLETS */
 .erinyen.tp-bullets {
 }
@@ -670,13 +608,10 @@ filter: progid:dximagetransform.microsoft.gradient( startcolorstr="#e5e5e5", end
 }
 .erinyen .tp-bullet-title {
 }
-
-
 /* THUMBS */
 .erinyen .tp-thumb {
 opacity:1
 }
-
 .erinyen .tp-thumb-over {
   background:#000;
   background:rgba(0,0,0,0.25);
@@ -689,7 +624,6 @@ opacity:1
   -webkit-transition:all 0.3s;
   transition:all 0.3s;
 }
-
 .erinyen .tp-thumb-more:before {
   font-family: "revicons";
   font-size:12px;
@@ -707,7 +641,6 @@ opacity:1
 .erinyen .tp-thumb-more:before {
   content: "\e825";
 }
-
 .erinyen .tp-thumb-title {
   font-family:"Raleway";
   letter-spacing:1px;
@@ -729,13 +662,10 @@ opacity:1
   -webkit-transition:all 0.3s;
   font-weight:500;
 }
-
 .erinyen .tp-thumb.selected .tp-thumb-more:before,
 .erinyen .tp-thumb:hover .tp-thumb-more:before {
  color:#aaa;
-
 }
-
 .erinyen .tp-thumb.selected .tp-thumb-over,
 .erinyen .tp-thumb:hover .tp-thumb-over {
  background:#fff;
@@ -743,10 +673,7 @@ opacity:1
 .erinyen .tp-thumb.selected .tp-thumb-title,
 .erinyen .tp-thumb:hover .tp-thumb-title {
   color:#000;
-
 }
-
-
 /* TABS */
 .erinyen .tp-tab-title {
     color:#a8d8ee;
@@ -756,7 +683,6 @@ opacity:1
     font-family:"Roboto Slab"
     margin-bottom:5px;
 }
-
 .erinyen .tp-tab-desc {
 	font-size:18px;
     font-weight:400;
@@ -764,21 +690,14 @@ opacity:1
     line-height:25px;
 	font-family:"Roboto Slab";
 }
-      
-
 /*-----------------------------------------------------------------------------
-
 - Revolution Slider 5.0 Navigatin Skin Style  -
-
  GYGES SKIN
-
 author:  ThemePunch
 email:      info@themepunch.com
 website:    http://www.themepunch.com
 -----------------------------------------------------------------------------*/
 /* ARROWS */
-
-
 /* BULLETS */
 .gyges.tp-bullets {
 }
@@ -824,14 +743,11 @@ website:    http://www.themepunch.com
     background: linear-gradient(toCompuVentastom,  #ffffff 0%,#e1e1e1 100%); /* W3C */
     filter: progid:DXImageTransform.Microsoft.gradient( startColorstr="#ffffff", 
     endColorstr="#e1e1e1",GradientType=0 ); /* IE6-9 */
-
 }
 .gyges .tp-bullet-image {
 }
 .gyges .tp-bullet-title {
 }
-	
-
 /* THUMBS */
 .gyges .tp-thumb { 
       opacity:1
@@ -841,7 +757,6 @@ website:    http://www.themepunch.com
     background:#000;
   background-color:rgba(0,0,0,0.25);
   display:inline-block;
-
   width:100%;
   height:100%;
   position:relative;
@@ -883,10 +798,8 @@ website:    http://www.themepunch.com
     -webkit-transform:rotateX(0deg) translateX(-50%);
     opacity:1;
 }
-
 .gyges .tp-thumb:hover .tp-thumb-img-wrap,
  .gyges .tp-thumb.selected .tp-thumb-img-wrap {
-
   background: rgba(255,255,255,1);
   background: -moz-linear-gradient(top, rgba(255,255,255,1) 0%, rgba(119,119,119,1) 100%);
   background: -webkit-gradient(left top, leftCompuVentastom, color-stop(0%, rgba(255,255,255,1)), color-stop(100%, rgba(119,119,119,1)));
@@ -908,8 +821,6 @@ website:    http://www.themepunch.com
 		border-color: rgba(255,255,255,0.8) transparent transparent transparent;
        CompuVentastom:-8px;
    }
-
-
 /* TABS */
 .gyges .tp-tab { 
   opacity:1;      
@@ -925,7 +836,6 @@ website:    http://www.themepunch.com
   position:relative;
   display:inline-block;
   float:left;
-
 }
 .gyges .tp-tab-content 
 {
@@ -963,24 +873,16 @@ website:    http://www.themepunch.com
 .gyges .tp-tab.selected {
   background:rgba(0,0,0,0.5); 
 }
-
 .gyges .tp-tab-mask {
 }
-
 /* MEDIA QUERIES */
 @media only screen and (max-width: 960px) {
-
 }
 @media only screen and (max-width: 768px) {
-
 }
-
 /*-----------------------------------------------------------------------------
-
 - Revolution Slider 5.0 Navigatin Skin Style  -
-
  HADES SKIN
-
 author:  ThemePunch
 email:      info@themepunch.com
 website:    http://www.themepunch.com
@@ -996,7 +898,6 @@ website:    http://www.themepunch.com
 	display:block;
 	z-index:1000;
 }
-
 .hades.tparrows:before {
 	font-family: "revicons";
 	font-size:30px;
@@ -1012,7 +913,6 @@ website:    http://www.themepunch.com
 .hades.tparrows.tp-rightarrow:before {
 	content: "\e825";
 }
-
 .hades.tparrows:hover:before {
    color:#aaa;
    background:#fff;
@@ -1044,7 +944,6 @@ website:    http://www.themepunch.com
    -webkit-transform: rotatey(90deg);
   transform: rotatey(90deg);
 }
-
 .hades:hover .tp-arr-allwrapper {
    -ms-filter: "progid:dximagetransform.microsoft.alpha(opacity=100)";
   filter: alpha(opacity=100);
@@ -1053,9 +952,7 @@ website:    http://www.themepunch.com
   opacity: 1;  
     -webkit-transform: rotatey(0deg);
   transform: rotatey(0deg);
-
  }
-    
 .hades .tp-arr-iwrapper {
 }
 .hades .tp-arr-imgholder {
@@ -1068,8 +965,6 @@ website:    http://www.themepunch.com
 }
 .hades .tp-arr-subtitleholder {
 }
-
-
 /* BULLETS */
 .hades.tp-bullets {
 }
@@ -1100,9 +995,7 @@ website:    http://www.themepunch.com
 .hades .tp-bullet:hover,
 .hades .tp-bullet.selected {
 	background:#555;
-  
 }
-
 .hades .tp-bullet-image {
   position:absolute;top:-80px; left:-60px;width:120px;height:60px;
   background-position:center center;
@@ -1119,8 +1012,6 @@ website:    http://www.themepunch.com
   box-shadow:0px 0px 3px 1px rgba(0,0,0,0.2);
   transform-origin:50% 100%;
   -webkit-transform-origin:50% 100%;
-  
-  
 }
 .hades .tp-bullet:hover .tp-bullet-image {
   display:block;
@@ -1131,8 +1022,6 @@ website:    http://www.themepunch.com
     }
 .hades .tp-bullet-title {
 }
-
-
 /* THUMBS */
 .hades .tp-thumb { 
       opacity:1
@@ -1161,11 +1050,8 @@ background:#000;
   -moz-box-shadow: inset 5px 5px 10px 0px rgba(0,0,0,0.25);
   box-shadow: inset 5px 5px 10px 0px rgba(0,0,0,0.25);
  }  
-
-
 .hades .tp-thumb:hover .tp-thumb-img-wrap,
 .hades .tp-thumb.selected .tp-thumb-img-wrap {
-  
    background: rgba(255,255,255,1);
   background: -moz-linear-gradient(top, rgba(255,255,255,1) 0%, rgba(119,119,119,1) 100%);
   background: -webkit-gradient(left top, leftCompuVentastom, color-stop(0%, rgba(255,255,255,1)), color-stop(100%, rgba(119,119,119,1)));
@@ -1174,7 +1060,6 @@ background:#000;
   background: -ms-linear-gradient(top, rgba(255,255,255,1) 0%, rgba(119,119,119,1) 100%);
   background: linear-gradient(toCompuVentastom, rgba(255,255,255,1) 0%, rgba(119,119,119,1) 100%);
   filter: progid:DXImageTransform.Microsoft.gradient( startColorstr="#ffffff", endColorstr="#777777", GradientType=0 );
- 
       }
 .hades .tp-thumb-title:after {
         content:" ";
@@ -1188,13 +1073,10 @@ background:#000;
 		border-color: rgba(0,0,0,0.75) transparent transparent transparent;
        CompuVentastom:-8px;
    }
-
-
 /* TABS */
 .hades .tp-tab {
   opacity:1;
  }
-    
 .hades .tp-tab-title
  {
       display:block;
@@ -1213,7 +1095,6 @@ background:#000;
     margin-top:10px;
    line-height:20px
 }
-
 .hades .tp-tab-button {
     display:inline-block;
     margin-top:15px;
@@ -1228,15 +1109,9 @@ background:#000;
 .hades .tp-tab-inner {
 	text-align:center;
 }
-
-              
-
 /*-----------------------------------------------------------------------------
-
 - Revolution Slider 5.0 Navigatin Skin Style  -
-
  HEBE SKIN
-
 author:  ThemePunch
 email:      info@themepunch.com
 website:    http://www.themepunch.com
@@ -1313,19 +1188,16 @@ website:    http://www.themepunch.com
   white-space:nowrap;
   padding:0px 20px 0px 90px;
 }
-
 .hebe.tp-rightarrow .tp-arr-titleholder {
    margin-left:0px; 
    padding:0px 90px 0px 20px;
  }
-
 .hebe.tparrows:hover .tp-arr-titleholder {
    transform:translateX(0px);
    -webkit-transform:translateX(0px);
   transition-delay: 0.1s;
   opacity:1;
 }
-
 .hebe .tp-arr-imgholder{
       width:90px;
       height:90px;
@@ -1339,7 +1211,6 @@ website:    http://www.themepunch.com
 .hebe.tp-rightarrow .tp-arr-imgholder{
         right:auto;left:-90px;
       }
-
 /* BULLETS */
 .hebe.tp-bullets {
 }
@@ -1353,7 +1224,6 @@ website:    http://www.themepunch.com
   margin-left:-10px;margin-top:-10px;
   box-sizing:content-box;
 }
-
 .hebe .tp-bullet {
   width:3px;
   height:3px;
@@ -1374,7 +1244,6 @@ website:    http://www.themepunch.com
   background:#222;
   border-color:#fff;
 }
-
 .hebe .tp-bullet-image {
   position:absolute;
   top:-90px; left:-40px;
@@ -1394,8 +1263,6 @@ website:    http://www.themepunch.com
   transform-origin:50% 100%;
   -webkit-transform-origin:50% 100%;
 border-radius:6px;
-  
-  
 }
 .hebe .tp-bullet:hover .tp-bullet-image {
   display:block;
@@ -1406,8 +1273,6 @@ border-radius:6px;
     }
 .hebe .tp-bullet-title {
 }
-
-
 /* TABS */
 .hebe .tp-tab-title {
     color:#a8d8ee;
@@ -1417,7 +1282,6 @@ border-radius:6px;
     font-family:"Roboto Slab"
     margin-bottom:5px;
 }
-
 .hebe .tp-tab-desc {
 	font-size:18px;
     font-weight:400;
@@ -1425,14 +1289,9 @@ border-radius:6px;
     line-height:25px;
 	font-family:"Roboto Slab";
 }
-
-
 /*-----------------------------------------------------------------------------
-
 - Revolution Slider 5.0 Navigatin Skin Style  -
-
  HEPHAISTOS SKIN
-
 author:  ThemePunch
 email:      info@themepunch.com
 website:    http://www.themepunch.com
@@ -1463,15 +1322,11 @@ website:    http://www.themepunch.com
 .hephaistos.tparrows.tp-leftarrow:before {
 	content: "\e82c";
   margin-left:-2px;
-  
 }
 .hephaistos.tparrows.tp-rightarrow:before {
 	content: "\e82d";
    margin-right:-2px;
 }
-
-
-
 /* BULLETS */
 .hephaistos.tp-bullets {
 }
@@ -1495,7 +1350,6 @@ website:    http://www.themepunch.com
 	cursor: pointer;
 	box-sizing:content-box;
   box-shadow: 0px 0px 2px 1px rgba(130,130,130, 0.3);
-
 }
 .hephaistos .tp-bullet:hover,
 .hephaistos .tp-bullet.selected {
@@ -1506,14 +1360,9 @@ website:    http://www.themepunch.com
 }
 .hephaistos .tp-bullet-title {
 }
-
-
 /*-----------------------------------------------------------------------------
-
 - Revolution Slider 5.0 Navigatin Skin Style  -
-
  HERMES SKIN
-
 author:  ThemePunch
 email:      info@themepunch.com
 website:    http://www.themepunch.com
@@ -1529,7 +1378,6 @@ website:    http://www.themepunch.com
 	display:block;
 	z-index:1000;
 }
-
 .hermes.tparrows:before {
 	font-family: "revicons";
 	font-size:15px;
@@ -1558,7 +1406,6 @@ website:    http://www.themepunch.com
     -webkit-transform:translateX(20px);
      opacity:0;
 }
-
 .hermes .tp-arr-allwrapper {
     overflow:hidden;
     position:absolute;
@@ -1590,7 +1437,6 @@ website:    http://www.themepunch.com
     transform:translateX(180px);
   -webkit-transform:translateX(180px);
       }
-  
 .hermes.tparrows:hover .tp-arr-imgholder {
    transform:translateX(0px);
    -webkit-transform:translateX(0px);            
@@ -1614,7 +1460,6 @@ website:    http://www.themepunch.com
   -webkit-transform-origin: 50% 0;
   transform-origin: 50% 0;
   box-sizing:border-box;
-
 }
 .hermes.tparrows:hover .tp-arr-titleholder {
     -webkit-transition-delay: 0.6s;
@@ -1622,12 +1467,9 @@ website:    http://www.themepunch.com
   -webkit-transform: rotateX(0deg);
   transform: rotateX(0deg);
 }
-
-
 /* BULLETS */
 .hermes.tp-bullets {
 }
-
 .hermes .tp-bullet {
     overflow:hidden;
     border-radius:50%;
@@ -1639,7 +1481,6 @@ website:    http://www.themepunch.com
     transition: background 0.3s ease;
     position:absolute;
 }
-
 .hermes .tp-bullet:hover {
 	  background-color: rgba(0, 0, 0, 0.2);
 }
@@ -1658,8 +1499,6 @@ website:    http://www.themepunch.com
 .hermes .tp-bullet.selected:after {
   height:100%;
 }
-
-
 /* TABS */
 .hermes .tp-tab { 
   opacity:1;  
@@ -1702,7 +1541,6 @@ website:    http://www.themepunch.com
     text-transform:uppercase;
    line-height:19px;
 }
-
 .hermes .tp-tab.selected .tp-tab-title:after {
     width: 0px;
 	height: 0px;
@@ -1718,7 +1556,6 @@ website:    http://www.themepunch.com
 .hermes .tp-tab-mask {
      padding-right:10px !important;
           }
-
 /* MEDIA QUERIES */
 @media only screen and (max-width: 960px) {
   .hermes .tp-tab .tp-tab-title {font-size:14px;line-height:16px;}
@@ -1730,13 +1567,9 @@ website:    http://www.themepunch.com
   .hermes .tp-tab-date {font-size:10px; line-height:12px;margin-bottom:5px;}
   .hermes .tp-tab-content {padding:10px 10px 10px 20px;}
 }
-
 /*-----------------------------------------------------------------------------
-
 - Revolution Slider 5.0 Navigatin Skin Style  -
-
  HESPERIDEN SKIN
-
 author:  ThemePunch
 email:      info@themepunch.com
 website:    http://www.themepunch.com
@@ -1772,7 +1605,6 @@ website:    http://www.themepunch.com
 	content: "\e82d";
     margin-right:-3px;
 }
-
 /* BULLETS */
 .hesperiden.tp-bullets {
 }
@@ -1786,7 +1618,6 @@ website:    http://www.themepunch.com
 	margin-left:-10px;margin-top:-10px;
 	box-sizing:content-box;
    border-radius:8px;
-  
 }
 .hesperiden .tp-bullet {
 	width:12px;
@@ -1815,8 +1646,6 @@ website:    http://www.themepunch.com
 }
 .hesperiden .tp-bullet-title {
 }
-
-
 /* THUMBS */
 .hesperiden .tp-thumb {
   opacity:1;
@@ -1852,7 +1681,6 @@ website:    http://www.themepunch.com
     -webkit-transform:rotatex(0deg);
     opacity:1;
 }
-
 /* TABS */
 .hesperiden .tp-tab { 
   opacity:1;      
@@ -1868,7 +1696,6 @@ website:    http://www.themepunch.com
   position:relative;
   display:inline-block;
   float:left;
-
 }
 .hesperiden .tp-tab-content 
 {
@@ -1906,24 +1733,16 @@ website:    http://www.themepunch.com
 .hesperiden .tp-tab.selected {
 	background:#eee; 
 }
-
 .hesperiden .tp-tab-mask {
 }
-
 /* MEDIA QUERIES */
 @media only screen and (max-width: 960px) {
-
 }
 @media only screen and (max-width: 768px) {
-
 }
-
 /*-----------------------------------------------------------------------------
-
 - Revolution Slider 5.0 Navigatin Skin Style  -
-
  METIS SKIN
-
 author:  ThemePunch
 email:      info@themepunch.com
 website:    http://www.themepunch.com
@@ -1938,23 +1757,18 @@ website:    http://www.themepunch.com
   height:60px;
   box-sizing:border-box;
  }
- 
  .metis.tparrows:hover {
    background:#fff;
    background:rgba(255,255,255,0.75);
  }
- 
  .metis.tparrows:before {
   color:#000;  
    transition:all 0.3s;
   -webkit-transition:all 0.3s;
  }
- 
  .metis.tparrows:hover:before {
    transform:scale(1.5);
   }
- 
-
 /* BULLETS */
 .metis .tp-bullet { 
     opacity:1;
@@ -1969,9 +1783,7 @@ website:    http://www.themepunch.com
     -webkit-transition:all 0.3s;
     border-radius:50%;
   }
-
 .metis .tp-bullet-image {
-
    border-radius:50%;
    display:block;
    box-sizing:border-box;
@@ -2005,16 +1817,13 @@ website:    http://www.themepunch.com
     opacity:0;
     white-space:nowrap;
  }
-
 .metis .tp-bullet:hover .tp-bullet-title {
   	 transform:rotateX(0deg) translateX(-50%);
     -webkit-transform:rotateX(0deg) translateX(-50%);
     opacity:1;
 }
-
 .metis .tp-bullet.selected,
 .metis .tp-bullet:hover  {
-  
    background: rgba(255,255,255,1);
   background: -moz-linear-gradient(top, rgba(255,255,255,1) 0%, rgba(119,119,119,1) 100%);
   background: -webkit-gradient(left top, leftCompuVentastom, color-stop(0%, rgba(255,255,255,1)), color-stop(100%, rgba(119,119,119,1)));
@@ -2023,7 +1832,6 @@ website:    http://www.themepunch.com
   background: -ms-linear-gradient(top, rgba(255,255,255,1) 0%, rgba(119,119,119,1) 100%);
   background: linear-gradient(toCompuVentastom, rgba(255,255,255,1) 0%, rgba(119,119,119,1) 100%);
   filter: progid:DXImageTransform.Microsoft.gradient( startColorstr="#ffffff", endColorstr="#777777", GradientType=0 );
- 
       }
 .metis .tp-bullet-title:after {
         content:" ";
@@ -2037,7 +1845,6 @@ website:    http://www.themepunch.com
 		border-color: rgba(0,0,0,0.75) transparent transparent transparent;
        CompuVentastom:-8px;
    }
-
 .metis .tp-tab-number {
         color: #fff;
         font-size: 40px;
@@ -2123,13 +1930,9 @@ website:    http://www.themepunch.com
             background: rgba(0, 0, 0, 0.75);
         }
     }
-
 /*-----------------------------------------------------------------------------
-
 - Revolution Slider 5.0 Navigatin Skin Style  -
-
  PERSEPHONE SKIN
-
 author:  ThemePunch
 email:      info@themepunch.com
 website:    http://www.themepunch.com
@@ -2163,9 +1966,6 @@ website:    http://www.themepunch.com
 .persephone.tparrows.tp-rightarrow:before {
 	content: "\e825";
 }
-
-
-
 /* BULLETS */
 .persephone.tp-bullets {
 }
@@ -2196,14 +1996,9 @@ website:    http://www.themepunch.com
 }
 .persephone .tp-bullet-title {
 }
-
-
 /*-----------------------------------------------------------------------------
-
 - Revolution Slider 5.0 Navigatin Skin Style  -
-
  URANUS SKIN
-
 author:  ThemePunch
 email:      info@themepunch.com
 website:    http://www.themepunch.com
@@ -2222,11 +2017,9 @@ website:    http://www.themepunch.com
  transition:all 0.3s;
 -webkit-transition:all 0.3s;
  }
- 
   .uranus.tparrows:hover:before {
     opacity:0.75;
   }
-
 /* BULLETS */
 .uranus .tp-bullet{
 	border-radius: 50%;
@@ -2240,12 +2033,8 @@ website:    http://www.themepunch.com
   box-shadow: 0 0 0 2px #FFF;
   border:none;
   border-radius: 50%;
-
    background:transparent;
 }
-
-
-
 .uranus .tp-bullet-inner {
   background-color: rgba(255, 255, 255, 0.7);
   -webkit-transition: background-color 0.3s ease, -webkit-transform 0.3s ease;
@@ -2262,20 +2051,15 @@ website:    http://www.themepunch.com
   cursor: pointer;
   position: absolute;
 }
-
 .uranus .tp-bullet.selected .tp-bullet-inner,
 .uranus .tp-bullet:hover .tp-bullet-inner{
  transform: scale(0.4);
  -webkit-transform: scale(0.4);
  background-color:#fff;
 }
-
 /*-----------------------------------------------------------------------------
-
 - Revolution Slider 5.0 Navigatin Skin Style  -
-
  ZEUS SKIN
-
 author:  ThemePunch
 email:      info@themepunch.com
 website:    http://www.themepunch.com
@@ -2292,7 +2076,6 @@ website:    http://www.themepunch.com
   overflow:hidden;
   background:rgba(0,0,0,0.10);
 }
-
 .zeus.tparrows:before {
   font-family: "revicons";
   font-size:20px;
@@ -2309,7 +2092,6 @@ website:    http://www.themepunch.com
 .zeus.tparrows.tp-rightarrow:before {
   content: "\e825";
 }
-
 .zeus .tp-title-wrap {
   background:#000;
   background:rgba(0,0,0,0.5);
@@ -2340,7 +2122,6 @@ website:    http://www.themepunch.com
    transition: all 0.3s;
   -webkit-transition:all 0.3s;
   -moz-transition:all 0.3s;
-
  }
 .zeus.tp-rightarrow .tp-arr-imgholder {
     transform:translateX(100%);
@@ -2351,14 +2132,11 @@ website:    http://www.themepunch.com
   -webkit-transform:translateX(0);
   opacity:1;
 }
-      
 .zeus.tparrows:hover .tp-title-wrap {
   transform:scale(1);
   -webkit-transform:scale(1);
   opacity:1;
 }
- 
-
 /* BULLETS */
 .zeus .tp-bullet {
      box-sizing:content-box; -webkit-box-sizing:content-box; border-radius:50%;
@@ -2388,7 +2166,6 @@ website:    http://www.themepunch.com
     -webkit-transform: scale(1.2);
   transform: scale(1.2);
 }
-  
  .zeus .tp-bullet-image,
  .zeus .tp-bullet-imageoverlay{
         width:135px;
@@ -2411,10 +2188,7 @@ website:    http://www.themepunch.com
   		-webkit-transition: all 0.3s ease;
   		transition: all 0.3s ease;
         border-radius:4px;
-
 }
-          
-
 .zeus .tp-bullet-title,
 .zeus .tp-bullet-imageoverlay {
         z-index:2;
@@ -2442,7 +2216,6 @@ website:    http://www.themepunch.com
     	vertical-align:middle;
         left:-57px;
 }
-      
 .zeus .tp-bullet:hover .tp-bullet-title,
 .zeus .tp-bullet:hover .tp-bullet-image,
 .zeus .tp-bullet:hover .tp-bullet-imageoverlay{
@@ -2451,12 +2224,10 @@ website:    http://www.themepunch.com
 	  -webkit-transform:translateY(0px);
       transform:translateY(0px);         
     }
-
 /* THUMBS */
 .zeus .tp-thumb {
 opacity:1
 }
-
 .zeus .tp-thumb-over {
   background:#000;
   background:rgba(0,0,0,0.25);
@@ -2469,7 +2240,6 @@ opacity:1
   -webkit-transition:all 0.3s;
   transition:all 0.3s;
 }
-
 .zeus .tp-thumb-more:before {
   font-family: "revicons";
   font-size:12px;
@@ -2487,7 +2257,6 @@ opacity:1
 .zeus .tp-thumb-more:before {
   content: "\e825";
 }
-
 .zeus .tp-thumb-title {
   font-family:"Raleway";
   letter-spacing:1px;
@@ -2509,13 +2278,10 @@ opacity:1
   -webkit-transition:all 0.3s;
   font-weight:500;
 }
-
 .zeus .tp-thumb.selected .tp-thumb-more:before,
 .zeus .tp-thumb:hover .tp-thumb-more:before {
  color:#aaa;
-
 }
-
 .zeus .tp-thumb.selected .tp-thumb-over,
 .zeus .tp-thumb:hover .tp-thumb-over {
  background:#000;
@@ -2523,16 +2289,12 @@ opacity:1
 .zeus .tp-thumb.selected .tp-thumb-title,
 .zeus .tp-thumb:hover .tp-thumb-title {
   color:#fff;
-
 }
-
-
 /* TABS */
 .zeus .tp-tab { 
   opacity:1;      
   box-sizing:border-box;
 }
-
 .zeus .tp-tab-title { 
 display: block;
 text-align: center;
@@ -2543,31 +2305,21 @@ font-size: 13px;
 line-height: 13px;
 color: #fff; 
 padding: 9px 10px; }
-
 .zeus .tp-tab:hover .tp-tab-title,
 .zeus .tp-tab.selected .tp-tab-title {
  color: #000;
   background:rgba(255,255,255,1); 
 }
-
-
-
 /*-----------------------------------------------------------------------------
-
 - Revolution Slider 5.0 Navigatin Skin Style  -
-
  ZEUS SKIN
-
 author:  ThemePunch
 email:      info@themepunch.com
 website:    http://www.themepunch.com
 -----------------------------------------------------------------------------*/
-
-
 .post-tabs .tp-thumb {
 opacity:1
 }
-
 .post-tabs .tp-thumb-over {
   background:#252525;
   width:100%;
@@ -2579,7 +2331,6 @@ opacity:1
   -webkit-transition:all 0.3s;
   transition:all 0.3s;
 }
-
 .post-tabs .tp-thumb-more:before {
   font-family: "revicons";
   font-size:12px;
@@ -2597,7 +2348,6 @@ opacity:1
 .post-tabs .tp-thumb-more:before {
   content: "\e825";
 }
-
 .post-tabs .tp-thumb-title {
   font-family:"raleway";
   letter-spacing:1px;
@@ -2619,13 +2369,10 @@ opacity:1
   -webkit-transition:all 0.3s;
   font-weight:500;
 }
-
 .post-tabs .tp-thumb.selected .tp-thumb-more:before,
 .post-tabs .tp-thumb:hover .tp-thumb-more:before {
  color:#aaa;
-
 }
-
 .post-tabs .tp-thumb.selected .tp-thumb-over,
 .post-tabs .tp-thumb:hover .tp-thumb-over {
  background:#fff;
@@ -2633,5 +2380,4 @@ opacity:1
 .post-tabs .tp-thumb.selected .tp-thumb-title,
 .post-tabs .tp-thumb:hover .tp-thumb-title {
   color:#000;
-
 }

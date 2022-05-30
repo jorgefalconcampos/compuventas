@@ -1,10 +1,8 @@
 /*---------------------------------------------------------------------
     File Name: slider-setting.js
 ---------------------------------------------------------------------*/
-
 "use strict";
 	var tpj = jQuery;
-
 	var revapi486;
 	tpj(document).ready(function () {
 		if (tpj("#rev_slider_486_1").revolution == undefined) {

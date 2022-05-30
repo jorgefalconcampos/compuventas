@@ -1,8 +1,5 @@
 /*--------------------------------------------------------------------- File Name: responsive.css ---------------------------------------------------------------------*/
-
-
 /*------------------------------------------------------------------- 991px x 768px ---------------------------------------------------------------------*/
-
 @media (min-width: 1200px) and (max-width: 1342px) {
     .navigation.navbar-dark .navbar-nav .nav-link {
         padding: 0px 20px;
@@ -14,7 +11,6 @@
         margin-right: 0px;
     }
 }
-
 @media (min-width: 992px) and (max-width: 1199px) {
     .navigation.navbar-dark .navbar-nav .nav-link {
         padding: 0px 11px;
@@ -38,7 +34,6 @@
         margin-right: 0px;
     }
 }
-
 @media (min-width: 768px) and (max-width: 991px) {
     .navigation.navbar-dark .navbar-nav .nav-link {
         padding: 0px 9px;
@@ -81,7 +76,6 @@
         margin-bottom: 30px;
     }
 }
-
 @media (min-width: 576px) and (max-width: 767px) {
     .text-bg h1 {
         font-size: 70px;
@@ -165,7 +159,6 @@
         display: none;
     }
 }
-
 @media (max-width: 575px) {
     .header {
         padding: 30px 0px 15px 0px;
@@ -266,4 +259,3 @@
         display: none;
     }
 }
-
